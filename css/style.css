@@ -2,8 +2,26 @@
 .topic:hover{
     transform: scale(1.05);
     cursor: pointer;
+    
+}
+footer p{
+    font-size: large;
 }
 footer a{
     text-decoration: none;
+    color: whitesmoke;
+    font-weight: 500;
+    
+}
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.social{
+    color: green;
+    
+}
+.text-green{
+    color:green !important;
     
 }
