@@ -4,6 +4,9 @@
     cursor: pointer;
     
 }
+.banner-img{
+    height: 10px !important;
+}
 footer p{
     font-size: large;
 }
