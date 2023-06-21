@@ -4,8 +4,11 @@
     cursor: pointer;
     
 }
-.banner-img{
-    height: 10px !important;
+.fabric-banner{
+    background-color: #078d00;
+    background-position: center;
+    min-height: 500px;
+    color: rgb(252, 255, 205);
 }
 footer p{
     font-size: large;
