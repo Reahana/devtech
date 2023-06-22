@@ -22,8 +22,13 @@ body{
     color:green !important;
     
 }
+.what-we-do{
+    /* min-height: 50vh; */
+    background-color: antiquewhite;
+}
+
 .story{
-    height: 100vh;
+    /* min-height: 100vh; */
     background-color: aliceblue;
 }
 .story h1{
