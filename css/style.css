@@ -17,18 +17,19 @@ body{
     color: rgb(252, 255, 205);
 }
 .women-banner{
-    background-color: #e6fae5;
+    background-color:rgb(220, 227, 245);
     background-position: center;
 }
-.bannar-text{
+.women-banner p{
+    padding: 80px 50px 10px 20px;
     width: 50%;
-    background-color: beige;
-    margin: 10px;
-
+    background-color: rgb(251, 251, 241);
+    margin: 80px 20px 50px 50px;
+    height: 300px;
 }
 .women-banner img{
     height: 500px;
-    margin-right: 20px;
+    margin: 20px;
     width: 500px;
 }
 
