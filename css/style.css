@@ -16,7 +16,21 @@ body{
     min-height: 500px;
     color: rgb(252, 255, 205);
 }
+.women-banner{
+    background-color: #e6fae5;
+    background-position: center;
+}
+.bannar-text{
+    width: 50%;
+    background-color: beige;
+    margin: 10px;
 
+}
+.women-banner img{
+    height: 500px;
+    margin-right: 20px;
+    width: 500px;
+}
 
 .text-green{
     color:green !important;
@@ -38,7 +52,10 @@ body{
 .story p{
     font-size: 20px;
 }
-
+.women-wear a{
+   text-decoration: none;
+   color: green;
+}
 footer p{
     font-size: large;
 }
