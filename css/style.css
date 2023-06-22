@@ -1,4 +1,10 @@
-
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.social a{
+    color: green;
+    
+}
 .topic:hover{
     transform: scale(1.05);
     cursor: pointer;
@@ -10,6 +16,24 @@
     min-height: 500px;
     color: rgb(252, 255, 205);
 }
+
+
+.text-green{
+    color:green !important;
+    
+}
+.story{
+    height: 100vh;
+    background-color: aliceblue;
+}
+.story h1{
+    
+    font-weight: bold;
+}
+.story p{
+    font-size: 20px;
+}
+
 footer p{
     font-size: large;
 }
@@ -22,12 +46,4 @@ footer a{
 footer a:hover{
     color: white;
     text-decoration: underline;
-}
-.social{
-    color: green;
-    
-}
-.text-green{
-    color:green !important;
-    
 }
