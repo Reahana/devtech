@@ -1,6 +1,10 @@
 body{
     font-family: 'Times New Roman', Times, serif;
 }
+.active{
+    color: rgb(69, 2, 2) !important;
+    text-decoration: dashed;
+}
 .social a{
     color: green;
     
@@ -37,16 +41,8 @@ body{
     color:green !important;
     
 }
-.what-we-do{
-    /* min-height: 50vh; */
-    background-color: antiquewhite;
-}
 
-.story{
-    /* min-height: 100vh; */
-    background-color: aliceblue;
-}
-.story h1{
+.products h1,.what-we-do h1,.story h1{
     
     font-weight: bold;
 }
