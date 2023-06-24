@@ -9,10 +9,17 @@ body{
     color: green;
     
 }
+.social a:hover{
+    color: black;
+    
+}
 .topic:hover{
     transform: scale(1.05);
     cursor: pointer;
     
+}
+.what-we-do{
+    min-height: 90vh;
 }
 .fabric-banner{
     background-color: #078d00;
