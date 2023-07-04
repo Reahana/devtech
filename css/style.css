@@ -1,5 +1,5 @@
 body{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Poppins', sans-serif;
 }
 .active{
     color: rgb(69, 2, 2) !important;
@@ -111,12 +111,13 @@ body{
     text-decoration: none;
     color: whitesmoke !important;
     font-weight: 700 !important;
+    font-size: 18px;
     
 }
 .footer a:hover{
-    color: white !important;;
+    color: white !important;
     text-decoration: underline;
-    font-size: large;
+    
 }
 .scroll-up-btn.show {
     bottom: 30px;
