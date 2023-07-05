@@ -1,46 +1,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-.active{
-    color: rgb(69, 2, 2) !important;
-    text-decoration: dashed;
-}
 
- .facebook{
-   background-color: blue;
-   color: white;
-    padding:  10px;
-    font-size: 20px;
-    
-}
 
-.instagram{
-    background-image: linear-gradient(#4D57C5, #DD3489 , #EE4F47,#F6C352) ;
-    color: white;
-    padding:  10px;
-    font-size: 20px;
-  
-}
-.facebook:hover{
-    color: black;
-    background-color: white;
-   
-}
-.instagram:hover{
-    color: black;
-    background-image: linear-gradient(#ffffff) !important;
-}
-
-.email{
-    /* background-color: rgb(244, 5, 5); */
-    color: #F5C81D;
-    font-size: 20px;
-   
-}
-.phone{
-    color: #27CB2E;
-    font-size: 20px;
-}
+ 
 .search{
     background-color: rgb(4, 154, 177);
     color: white;
@@ -98,15 +61,58 @@ body{
    text-decoration: none;
    color: green;
 }
+/******* footer section style *******/
+/* top part */
 .footer-top{
     background-color: black;
 }
 .footer-top ul li{
     list-style: none;
+    font-size: 20px;
+}
+.footer-top h2{
+    color: whitesmoke;
+    padding-bottom: 15px;
 }
 .footer-top p{
-    font-size: large;
+    font-size: 20px;
 }
+.footer-top a{
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    text-decoration: underline;
+    color: crimson;
+}
+/* socials */
+.facebook{
+    background-color: blue;
+    color: white;
+    padding:  10px;
+    font-size: 22px;  
+ }
+ 
+ .instagram{
+    background-image: linear-gradient(#4D57C5, #DD3489 , #EE4F47,#F6C352) ;
+    color: white;
+    padding:  10px;
+    font-size: 22px;
+ }
+ .facebook:hover , .instagram:hover{
+     color: black;
+     /* background-color: white; */
+ }
+ /* say hello */
+ .email{
+     color: #F5C81D;  
+     font-size: 20px;
+ }
+ .phone{
+     color: #27CB2E;
+     font-size: 20px;
+ }
+/* copyright part */
 .footer a{
     text-decoration: none;
     color: whitesmoke !important;
@@ -119,6 +125,8 @@ body{
     text-decoration: underline;
     
 }
+
+/* scroll up btn */
 .scroll-up-btn.show {
     bottom: 30px;
     opacity: 1;
@@ -143,3 +151,5 @@ body{
     pointer-events: none;
     transition: all 0.3s ease;
 }
+
+
