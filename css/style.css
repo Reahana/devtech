@@ -2,8 +2,9 @@ body{
     font-family: 'Poppins', sans-serif;
    
 }
+/* Nav section */
 .top-menu{
- background-color: rgba(247, 247, 247, 0.904);
+ background-color: rgba(255, 255, 255, 0.992);
 }
 .search{
     background-color: rgb(4, 154, 177);
@@ -19,8 +20,7 @@ header{
     min-height: 500px;
     background-size: cover;
     text-align: center;
-    
-    /* background-attachment: fixed; */
+   
 }
 .banner{
     background-color: rgba(0, 0, 0, 0.1);
@@ -36,27 +36,61 @@ padding-bottom: 100px;
     padding-top: 100px;
     font-size: 55px;
 }
-/* product section */
-.products h1,.what-we-do h1, .story h1{
-    text-align: center;
-    padding-bottom: 20px;
-   color: #000;
+/* Main section */
+.topic:hover{
+    transform: scale(1.05);
+    cursor: pointer; 
     
 }
+.fa-star{
+    font-size: 20px;
+    padding-bottom: 3px;
+    color: #F5C81D;
+}
+.products h1,.work h1, .story h1{
+    text-align: center;
+    padding-bottom: 2px;
+   color: #C37D28;
+   text-shadow:2px 2px black ;
+    font-weight: bold;
+}
+.products h4,.story h4 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+/* product section */
+.products{
+    background-color: #fffff1;
+}
+
 .products h2{
     color:whitesmoke;
     background-color: rgba(35, 32, 32, 0.3);
 }
 
-.topic:hover{
-    transform: scale(1.05);
-    cursor: pointer;
-   
+
+/* work */
+
+.work{
+    background-color:  #ffffff;
+    min-height: 80vh;
+}
+.work h4{
+    text-align: center;
+    font-style: italic;
+}
+.box{
+    border-right: 5px solid #301c03;
+}
+/* story */
+.story {
+    background-color: #fffff1;
+    margin-bottom: 20px;
     
 }
-.what-we-do{
-    background-color: #f0f0f0;
-    height: 70vh;
+.story p{
+    font-size: 20px;
 }
 .fabric-banner{
     background-color: #078d00;
@@ -81,18 +115,10 @@ padding-bottom: 100px;
     width: 500px;
 }
 
-.text-green{
-    color:green !important;
-    
-}
 
-.products h1,.what-we-do h1,.story h1{
-    
-    font-weight: bold;
-}
-.story p{
-    font-size: 20px;
-}
+
+
+
 .women-wear a{
    text-decoration: none;
    color: green;
