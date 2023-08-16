@@ -97,9 +97,12 @@ padding-bottom: 100px;
     font-size: 20px;
 }
 /* Fabric page */
+.fabric{
+    background-color: #fffff1;
+}
 .fabric h1{
     /* color: red; */
-    font-size: 70px;
+    font-size: 80px;
     background: -webkit-linear-gradient( #ffc6c6,#ff0000,#7b0202);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -109,12 +112,21 @@ padding-bottom: 100px;
 .fabric  ul li{
     text-decoration: none;
 }
-/* .fabric-banner{
-    background-color: #078d00;
+.fabric-banner{
+    background-image: linear-gradient(160deg,  #52ff9d , #94e9b9, #cafcdb);
     background-position: center;
-    min-height: 500px;
-    color: rgb(252, 255, 205);
-} */
+    min-height: 450px;
+   
+}
+.fabric-banner h1{
+  padding:150px;
+  color: #000b08;
+  text-shadow:5px 2px #fffbfb ;
+  font-size: 80px;
+text-transform: uppercase;
+font-weight: 600;
+
+}
 .women-banner{
     background-color:rgb(220, 227, 245);
     background-position: center;
