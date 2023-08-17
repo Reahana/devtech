@@ -5,50 +5,56 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./fonts/Poppins-Regular.ttf">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/all.min.css">
   <link rel="stylesheet" href="../css/style.css">
-  <title>DevTech</title>
+  <link rel="shortcut icon" href="../image/favicon.ico" type="image/x-icon">
+
+  <title>Dobby - DevTech</title>
 </head>
 <body>
     
-   <!-- menu -->
-   <nav class="navbar sticky-top navbar-expand-lg bg-white navbar-light border-bottom border-dark ">
+  <!-- Navbar -->
+    
+  <nav class="navbar sticky-top navbar-expand-lg top-menu navbar-light border-bottom border-dark ">
     <div class="container-fluid ">
       <a class="navbar-brand" href="#">
         <img src="../image/logo.png" alt="" width="210" height="60" class="d-inline-block align-text-top">
       </a>
       <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon text-green"></span>
+        <span class="navbar-toggler-icon "></span>
       </button>
       <div class="collapse navbar-collapse fs-4 " id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mx-auto mb-2 mb-lg-0 ">
           <li class="nav-item ">
-            <a class="nav-link active text-green" aria-current="page" href="../index.html">Home</a>
+            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link text-green" href="#">Story</a>
+            <a class="nav-link " href="../about.html">Story</a>
           </li>
           <li class="nav-item dropdown ">
-            <a class="nav-link text-green dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               Fabric
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="./jacquard.html">Jacquard</a></li>
+              <li><a class="dropdown-item " href="../fabric/jacquard.html">Jacquard</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="./dobby.html">Dobby</a></li>
+              <li><a class="dropdown-item active" href="../fabric/dobby.html">Dobby</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="./plain.html">Plain</a></li>
+              <li><a class="dropdown-item" href="../fabric/plain.html">Plain</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown ">
-            <a class="nav-link text-green dropdown-toggle" href="#" id="navbarDropdown" role="button"
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               Women Wears
             </a>
@@ -70,27 +76,28 @@
                 <hr class="dropdown-divider">
               </li>
               <li><a class="dropdown-item" href="../women-wears/pants.html">Pants</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="../women-wears/jackets.html">Jacket</a></li>
-            
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="../women-wears/jackets.html">Jacket</a></li>
+          
             </ul>
           </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="../contact.html">Contact</a>
+          </li>
         </ul>
-        <!-- social link -->
-        <div class="d-flex social justify-content-sm-start">
-          <a href="http://" target="_blank"><i class="fab fa-facebook fs-2  me-4"></i></a>
-          <a href="http://" target="_blank"><i class="fab fa-instagram fs-2  me-4"></i></a>
-          <a href="http://" target="_blank"><i class="fas fa-envelope fs-2  me-4"></i></a>
-          <a href="http://" target="_blank"><i class="fas fa-search fs-2  me-5"></i></a>
-        </div>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+        </form>
       </div>
     </div>
 
   </nav>
   <!-- bannar -->
-  <section class="fabric-banner">
+  <section class="dobby-banner">
     <h1 class="py-5"></h1>
     <h1 class=" text-center  py-5">Dobby</h1>
   
@@ -104,9 +111,7 @@
           <div class="card-body">
             <h5 class="card-title text-center">DT-05 Herringbon  Dobby Medium Weight</h5>
             <p class="card-text text-center">100% Organic Cotton
-              <br>
-              £75.00
-            </p>
+              </p>
             
           </div>
         </div>
@@ -117,8 +122,7 @@
           <div class="card-body">
             <h5 class="card-title text-center">DT-06 Herriangbone Dobby Medium weight</h5>
             <p class="card-text text-center">100% Organic Cotton
-              <br>
-              £75.00
+              
             </p>
             
           </div>
@@ -130,8 +134,7 @@
             <div class="card-body">
               <h5 class="card-title text-center">DT-08 Dobby net Medium Light</h5>
               <p class="card-text text-center">100% Organic Cotton
-                <br>
-                £5.00
+              
               </p>
               
             </div>
@@ -143,8 +146,7 @@
           <div class="card-body">
             <h5 class="card-title text-center">DT-09 Dobby net Medium Light</h5>
             <p class="card-text text-center">100% Organic Cotton
-              <br>
-              £5.00
+             
             </p>
             
           </div>
@@ -156,8 +158,7 @@
           <div class="card-body">
             <h5 class="card-title text-center">DT-10 Tie-dye Dobby Medium Light</h5>
             <p class="card-text text-center">100% Organic Cotton
-              <br>
-              £5.00
+             
             </p>
             
           </div>
@@ -169,8 +170,7 @@
           <div class="card-body">
             <h5 class="card-title text-center">DT-10 Tie-dye Dobby Medium Light</h5>
             <p class="card-text text-center">100% Organic Cotton
-              <br>
-              £5.00
+              
             </p>
             
           </div>
