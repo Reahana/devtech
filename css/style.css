@@ -205,7 +205,12 @@ font-weight: 600;
     margin: 20px;
     width: 500px;
 }
-
+.wears-type a{
+text-decoration: none;
+}
+.wears-type a:hover{
+    transform: scale(1.1);
+}
 
 
 
