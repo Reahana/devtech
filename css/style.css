@@ -157,7 +157,8 @@ padding-bottom: 100px;
     padding: 16px 32px;
   }
 .fabric-banner{
-    background-image: linear-gradient(160deg,  #52ff9d , #94e9b9, #cafcdb);
+    /* background-image: linear-gradient(160deg,  #52ff9d , #94e9b9, #cafcdb); */
+    background-image: url(../image/jaq_ban.png);
     background-position: center;
     min-height: 450px;
    
