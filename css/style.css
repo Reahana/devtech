@@ -199,11 +199,13 @@ font-weight: 600;
     background-color: rgb(251, 251, 241);
     margin: 50px;
     height: 300px;
+    border-radius: 10px;
 }
 .women-banner img{
     height: 500px;
     margin: 20px;
     width: 500px;
+    border-radius: 15px;
 }
 .wears-type a{
 text-decoration: none;
