@@ -96,6 +96,23 @@ padding-bottom: 100px;
 .story p{
     font-size: 20px;
 }
+/* about /story page */
+.about-banner {
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 5px 5px #000000;
+}
+.about-banner img{
+opacity:0.8;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+  }
 /* Fabric page */
 .fabric{
     background-color: #fffff1;
