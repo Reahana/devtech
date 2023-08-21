@@ -238,9 +238,13 @@ text-decoration: none;
    text-decoration: none;
    color: green;
 }
-
-.contact-form{
-    background-color: #fffff1;;
+.contact{
+    background-color: #fafafa;
+    
+}
+.msg-form{
+    background-color: #fffff1;
+  
 }
 /******* footer section style *******/
 /* top part */
