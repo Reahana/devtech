@@ -298,14 +298,11 @@ color:#C37D28;
      /* background-color: white; */
  }
  /* say hello */
- .email{
-     color: #F5C81D;  
+ .email, .phone{
+
      font-size: 20px;
  }
- .phone{
-     color: #27CB2E;
-     font-size: 20px;
- }
+ 
 /* copyright part */
 .copyright {
     text-decoration: none;
