@@ -50,8 +50,8 @@ padding-bottom: 100px;
 .products h1,.work h1, .story h1{
     text-align: center;
     padding-bottom: 2px;
-   color: #C37D28;
-   text-shadow:2px 2px black ;
+   color: #b77019;
+   /* text-shadow:2px 2px black ; */
     font-weight: bold;
 }
 .products h4,.story h4 {
