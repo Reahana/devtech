@@ -96,6 +96,15 @@ padding-bottom: 100px;
 .story p{
     font-size: 20px;
 }
+.read-more{
+    color:#b77019;
+    background-color: #fffff1;
+    border: 1px solid #b77019;
+}
+.read-more:hover{
+background-color:  #b77019;
+   color: #ffffff;
+}
 /* about /story page */
 .about-banner {
     position: relative;
