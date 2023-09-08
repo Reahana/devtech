@@ -113,14 +113,21 @@ background-color:  #b77019;
 }
 /* about /story page */
 .about-banner {
-    position: relative;
+    background-image: url("../image/loom/j-loom.jpg");
+    height: 90vh;
+    min-height: 500px;
+    background-size: cover;
     text-align: center;
+} 
+
+.about-banner h1 {
+    text-transform: uppercase;
+    padding-top:200px ;
+    font-size: 90px;
     color: #ffffff;
-    text-shadow: 5px 5px #000000;
+    font-weight: 500;
 }
-.about-banner img{
-opacity:0.8;
-}
+
 .centered {
     position: absolute;
     top: 50%;
