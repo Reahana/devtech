@@ -45,23 +45,27 @@ padding-bottom: 100px;
 .fa-star{
     font-size: 20px;
     padding-bottom: 3px;
-    color: #F5C81D;
+    /* color: #F5C81D; */
+    color: #b77019;
 }
 .products h1,.work h1, .story h1{
     text-align: center;
     padding-bottom: 2px;
-   color: #b77019;
+   /* color: #b77019; */
    /* text-shadow:2px 2px black ; */
     font-weight: bold;
 }
-.products h4,.story h4 {
+.products h4, .work h4, .story h4 {
     text-align: center;
     padding-bottom: 20px;
     font-style: italic;
+    color: #b77019;
+    font-weight: 500;
 }
 /* product section */
 .products{
-    background-color: #fffff1;
+    /* background-color: #fffff1; */
+    background-color: #ffffff;
 }
 
 .products h2{
@@ -74,7 +78,7 @@ padding-bottom: 100px;
 /* work */
 
 .work{
-    background-color: #fffcfc;
+    background-color: #fafafa;
     min-height: 80vh;
 }
 .work h4{
@@ -89,7 +93,7 @@ padding-bottom: 100px;
 
 /* story */
 .story {
-    background-color: #fffff1;
+    background-color: #ffffff;
     margin-bottom: 20px;
     
 }
@@ -100,6 +104,8 @@ padding-bottom: 100px;
     color:#b77019;
     background-color: #fffff1;
     border: 1px solid #b77019;
+    padding: 5px 5px 5px 5px;
+
 }
 .read-more:hover{
 background-color:  #b77019;
