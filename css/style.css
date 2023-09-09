@@ -254,7 +254,7 @@ background-color:  #b77019;
 .type-name{
     font-size: 60px;
     font-weight: 500;
-    color:rgb(0, 0, 56);
+    color:rgb(1, 1, 96);
     font-family: 'Times New Roman', Times, serif;
 }
 .women-banner img{
@@ -341,7 +341,15 @@ color:#C37D28;
 
      font-size: 20px;
  }
- 
+
+ .legal a{
+    text-decoration: underline;
+    /* color: #C37D28; */
+ }
+ .legal a:hover{
+    text-decoration: none;
+    color: #C37D28;
+ }
 /* copyright part */
 .copyright {
     text-decoration: none;
